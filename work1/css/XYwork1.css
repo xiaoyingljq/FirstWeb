@@ -1,0 +1,308 @@
+﻿html,body{font-size: 75px;}
+    *{
+    	margin: 0.0rem;
+    	padding: 0.0rem;
+    }
+    body{box-sizing: border-box;font-family: "微软雅黑";}
+    p{
+    	font-size:0.24rem;
+    	position: absolute;
+    	left: 3.2rem;
+    	top: 0.4rem;
+    	width:5.733333rem;
+    	float: right;
+        color: #4e4e50;
+        font-weight: bold;
+        word-spacing: 0.006667remx;
+        line-height: 0.333333rem;
+    }
+    #top{
+    	width: 10rem;
+    	height: 6.0rem;
+    	background: #fce35a;
+    	
+    }
+    #tiao{
+        position: absolute;
+        top: 5.826667rem;
+        height: 0.186667rem;
+        width: 10.0rem;
+    }
+    #tou{
+        position: absolute;
+        left: 3.906667rem;
+        top: 1.653333rem;
+        width: 2.2rem;
+        height: 2.2rem;
+    }
+    #editor{
+        position: absolute;
+        right: 0.4rem;
+        top: 1.133333rem;
+        width: 0.586667rem;
+        height: 0.586667rem;
+        
+    }
+    #name{
+        position: absolute;
+        left: 4.066667rem;
+        top: 4.4rem;
+        height: 0.333333rem;
+        width: 1.946667rem;
+    }
+    #second{
+    	width: 10.0rem;
+    	height: 1.973333rem;
+    	background: white;
+
+        
+    }
+    #third{
+    	width: 10.0rem;
+    	height: 8.48rem;
+    	background: #ffffff;
+    	box-shadow: 0px 18px 20px #d4d1d1 inset;
+
+    }
+    .yi{
+        float: left;
+        width: 3.333333rem;
+        height: 1.973333rem;
+    }
+    #ys{
+        position: absolute;
+        left: 1.0rem;
+        top: 6.506667rem;
+        font-size: 0.453333rem;
+        color: #4e4e50;
+    }
+    #yxia{
+        position: absolute;
+        top: 7.2rem;
+        left: 1.0rem;
+        font-size: 0.333333rem;
+        color: #999999;
+    }
+    #es{
+        position: absolute;
+        left: 4.626667rem;
+        top: 6.506667rem;
+        font-size: 0.453333rem;
+        color: #4e4e50;
+    }
+    #ex{
+        position: absolute;
+        top: 7.2rem;
+        left: 4.626667rem;
+        font-size: 0.333333rem;
+        color: #999999;
+    }
+    #ss{
+        position: absolute;
+        left: 7.6rem;
+        top: 6.506667rem;
+        font-size: 0.453333rem;
+        color: #4e4e50;
+    }
+    #sx{
+        position: absolute;
+        top: 7.2rem;
+        left: 7.6rem;
+        font-size: 0.333333rem;
+        color: #999999;
+    }
+    
+    
+    #footer{
+    	width: 10.0rem;
+    	height: 1.066667rem;
+    	background: #ffffff;
+    	
+    }
+    #left,#center,#right{
+    	background: #fccc49;
+    	height:1.6rem;
+    	width: 2.8rem;
+        box-shadow:0px 1px 4px 3px #e6e2e2 ;
+    }
+    #left{
+    	position: relative;
+    	left: 0.4rem;
+    	top: 0.533333rem;
+    	float: left;
+    }
+    #center{
+    	position: relative;
+    	left: 0.8rem;
+    	top: 0.533333rem;
+      float: left;
+    }
+    #right{
+    	position: relative;
+    	right: 0.4rem;
+    	top: 0.533333rem;
+    	float: right;
+    }
+     #t,#m,#f,#r,#my,#c{
+        font-size: 0.253333rem;
+        color: #ffffff;
+}
+#t,#f,#my{
+    position: absolute;
+    top: 0.4rem;
+    left: 0.4rem;
+}
+#m,#r,#c{
+    position: absolute;
+    top: 0.906667rem;
+    left: 0.4rem;
+}
+#time,#data,#col{
+    width: 0.453333rem;
+    height: 0.453333rem;
+    position: absolute;
+    top: 0.4rem;
+    right: 0.4rem;
+}
+
+
+
+    #one,#two{
+    	height: 2.64rem;
+    	width: 9.2rem;
+    	background: #ffffff;
+    	border: 0.013333rem solid #f6f6f6;
+       box-shadow:0px 1px 16px 6px #e6e2e2 ;
+    }
+    #one{
+    	position: relative;
+    	top: 2.693333rem;
+    	left: 0.4rem;
+    	z-index: 1;
+    }
+    #ping,#shou,#dian,#pingl,#shoul,#dianl{
+        width: 0.36rem;
+        height: 0.36rem;
+    }
+    #ping{
+        position: absolute;
+        top: 2.053333rem;
+        left: 3.2rem;
+    }
+    #shou{
+         position: absolute;
+        top: 2.053333rem;
+        left: 5.04rem;
+    }
+    #dian{
+        position: absolute;
+        top: 2.053333rem;
+        left: 6.733333rem;
+    }
+    #pingl{
+        position: absolute;
+        top: 2.053333rem;
+        left: 3.2rem;
+    }
+    #shoul{
+         position: absolute;
+        top: 2.053333rem;
+        left: 5.04rem;
+    }
+    #dianl{
+        position: absolute;
+        top: 2.053333rem;
+        left: 6.733333rem;
+    }
+    #two{
+    	position: relative;
+    	top: 3.226667rem;
+    	left: 0.4rem;
+    	z-index: 1;
+    }
+    #four{
+        position: absolute;
+        width: 2.786667rem;
+        height: 2.64rem;
+        top:0rem;
+        left: 0rem;
+    }
+    #five{
+        position: absolute;
+        width: 2.786667rem;
+        height: 2.64rem;
+        top:0rem;
+        left: 0rem;
+    }
+    #j,#x{
+        width: 1.066667rem;
+        height: 1.066667rem;
+        z-index: 1;
+        position: absolute;
+        left: 0.0rem;
+        top: 0.0rem;
+    }
+    #jiayi,#jiasan{
+        position: absolute;
+        left: 0.306667rem;
+        top: 0.36rem;
+        z-index: 2;
+        width: 0.48rem;
+        height: 0.4rem;
+    }
+    #erwu,#sanba,#siba,#yin,#erba,#ernid{
+        font-size: 0.24rem;
+        color: #9d9d9d;
+    }
+    #erwu{
+        position: absolute;
+        left: 3.8rem;
+        top: 2.06rem;
+    }
+    #yin{
+        position: absolute;
+        left: 3.8rem;
+        top: 2.06rem;
+    }
+    #erba{
+        position: absolute;
+        left: 5.666667rem;
+        top: 2.06rem;
+    }
+    #ernid{
+        position: absolute;
+        left: 7.306667rem;
+        top: 2.06rem;
+    }
+    #sanba{
+        position: absolute;
+        left: 5.666667rem;
+        top: 2.06rem;
+    }
+    #siba{
+        position: absolute;
+        left: 7.306667rem;
+        top: 2.06rem;
+    }
+    #shouye,#find,#dong,#wode{
+        width: 0.6rem;
+        height: 0.6rem;
+    }
+    #shouye{
+        position: relative;
+        top: 0.426667rem;
+        left:0.986667rem;
+    }
+    #find{position: relative;
+        top: 0.426667rem;
+        left:2.8rem;}
+        #dong{
+            position: relative;
+        top: 0.426667rem;
+        left:4.6rem;
+        }
+        #wode{
+            position: relative;
+        top: 0.426667rem;
+        left: 6.5rem;
+        }
